@@ -1,0 +1,36 @@
+<html>
+    <html>
+<head>  
+    <meta name="google-signin-client_id" content="515407482141-lhje6mg4t7v0ke4lhocmopcnguc2rc93.apps.googleusercontent.com">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css"
+</script>
+
+</head>
+<body class="background">
+    <a href="#" onclick="signOut();">Sign out</a>
+<div align="center">
+<h1>Paint</h1>
+
+    <canvas id="Canvas" width="800" height="600" class="Canvas"></canvas>
+        <br>
+
+<span>Color</span>
+<input type="text" id="Color">
+
+<span>width</span>
+<input type="text" id="line-width">
+
+<button onclick="clearArea()"> Clear </button>
+<button onclick="goBack2()">Go Back</button>
+    </div>
+
+<script src="game.js"></script>
+</body>
+<script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+</html>

@@ -1,0 +1,32 @@
+.background{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.login_div{
+	float: none;
+	background-color: cornsilk;
+    border-radius: 20px;
+    font-family: cursive;
+    
+}
+#login,#signup{
+    width:120px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+h1{
+    color: white;
+    font-size: 25px;
+}
+marquee{
+    color:white;
+}
+#myCanvas{
+     background-image: url("Race\ Track.jpg"); 
+   
+}
+#Canvas{
+border: 20px solid blue;
+border-style: groove;
+}

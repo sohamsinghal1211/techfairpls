@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Tech Fair </title>
+    
+    
+    <meta name="google-signin-client_id" content="515407482141-lhje6mg4t7v0ke4lhocmopcnguc2rc93.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    </head>
+    <body class="background">
+        
+        <center>
+<h1>Welcome To My Web App</h1>
+<br>
+<marquee width="60%" direction="left" color="white" hspace="20" vspace="20" style="font-size:'25px' ; " >
+    This Game Is About Creativity, You get to make pictures out of colors you are given.
+</marquee>
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 login_div">
+    <h3 id="msg"></h3>
+    <h2>Username</h2>
+    
+    <input type="text" class="form-control" style="width:30%" id="login_username">
+    <br>
+    <h2>Password</h2>
+    
+    <input type="text" class="form-control" style="width:30%" id="login_password">
+    <br>
+    <button id="login" onclick="login()">Login</button>
+    <button id="signup" data-toggle="modal" data-target="#myModal">Sign up</button>
+    <br>
+  </div>
+  <div  id="myModal" class="modal fade">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button class="close" data-dismiss="modal" >
+                      &times;
+        
+                  </button>
+                  <h4>Signup</h4>
+              </div>
+              <div class="modal-body">
+                <div>
+                    <h2>Username</h2>
+                    
+                    <input type="text" class="form-control" style="width:30%" id="user_name">
+                    <br>
+                    <h2>Password</h2>
+                    
+                    <input type="text" class="form-control" style="width:30%" id="password">
+                    <br>
+                    <button id="sign_up" onclick="signUp()">Sign Up</button>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+        </center>
+        <iframe
+allow="microphone;"
+width="350"
+height="450"
+src="https://console.dialogflow.com/api-client/demo/embedded/24b02232-103c-4712-a935-82b5cd91db43">
+</iframe>
+<center>
+<h1>OR SIGN UP WITH GOOGLE</h1>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+</center>
+    </body>
+</html>
